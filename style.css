@@ -1,70 +1,89 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  h1 {
-    color: #ff6600;
-  }
-  
-  form {
-    display: flex;
-    margin: 20px 0;
-  }
-  
-  input[type="text"] {
-    flex-grow: 1;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #ff6600;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    margin-left: 10px;
-    cursor: pointer;
-  }
-  
-  #recipe-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .recipe-card {
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin: 10px;
-    width: 300px;
-  }
-  
-  .recipe-card img {
-    width: 100%;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-  }
-  
-  .recipe-card h2 {
-    margin: 10px;
-  }
-  
-  .recipe-card p {
-    margin: 10px;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(image/bg-2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar-brand {
+  color: #ff6600;
+}
+
+form {
+  display: flex;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe-card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  width: 300px;
+}
+
+.recipe-card img {
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.recipe-card h2 {
+  margin: 10px;
+}
+
+.recipe-card p {
+  margin: 10px;
+}
+
+.navbar-brand{
+  color: #ff6600
+}
+
+.nav-link{
+  color: #ff6600;
+}
+
+.offcanvas-title{
+  color: #ff6600;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
